@@ -50,6 +50,7 @@ export const VideoBg = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
+    opacity: 50%;
 `
 
 export const VideoSrc = styled.source``

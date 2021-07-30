@@ -28,7 +28,7 @@ const HeroSection = () => {
     return (
         <HeroContainer id="home">
             <HeroBg>
-                <VideoBg autoPlay loop playsInline muted >
+                <VideoBg autoPlay loop playsInline muted src={Video} type="video/mp4">
                     <VideoSrc src={Video} type="video/mp4" />
                 </VideoBg>
             </HeroBg>
