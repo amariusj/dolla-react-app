@@ -4,6 +4,7 @@ import {
     HeroContainer,
     HeroBg,
     VideoBg,
+    VideoSrc,
     HeroContent,
     HeroH1,
     HeroP,
@@ -27,7 +28,9 @@ const HeroSection = () => {
     return (
         <HeroContainer id="home">
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+                <VideoBg autoPlay loop playsInline muted >
+                    <VideoSrc src={Video} type="video/mp4" />
+                </VideoBg>
             </HeroBg>
             <HeroContent>
                 <HeroH1>Virtual Banking Made Easy</HeroH1>
